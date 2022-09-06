@@ -1,1 +1,2 @@
 #!/bin/bash
+find $(PATH) -maxdepth 2 -type f | wc -l
